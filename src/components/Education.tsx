@@ -26,31 +26,25 @@ const Education = () => {
 
   const educationData = [
     {
-      degree: 'CBSE',
+      degree: '10th CBSE',
       institution: 'Krishna International School',
       location: 'Rajkot',
       period: '2019 - 2021',
-      description:
-        'Specialized in Software Engineering and Machine Learning. Graduated Magna Cum Laude.',
-      achievements: ['GPA: 3.8/4.0', "Dean's List", 'Research Assistant'],
+      achievements: ['History of Management'],
     },
     {
       degree: 'Diploma in Computer Engineering',
       institution: 'Darshan University',
       location: 'Rajkot, Gujarat',
-      period: '2015 - 2019',
-      description:
-        'Strong foundation in computer science fundamentals and software development practices.',
-      achievements: ['GPA: 3.7/4.0', 'President of Coding Club', 'Hackathon Winner'],
+      period: '2021 - 2024',
+      achievements: ['CGPA: 8.40/10', 'Project Presentation'],
     },
     {
       degree: 'BTECH in Computer Engineering',
       institution: 'Darshan University',
       location: 'Rajkot, Gujarat',
-      period: '2015 - 2019',
-      description:
-        'Intensive program covering modern web development technologies and practices.',
-      achievements: ['Top 5% of class', 'Team Lead for final project', 'Mentor for junior students'],
+      period: '2024 - 2027',
+      achievements: ['CGPA: 8.60/10', 'Team Lead for final project', 'Code A Thon','Hackathon at Darshan University'],
     },
   ];
 
@@ -129,9 +123,6 @@ const Education = () => {
                         <MapPin className="h-4 w-4" />
                       </div>
 
-                      {/* Description */}
-                      <p className="text-gray-700 mb-4 leading-relaxed">{edu.description}</p>
-
                       {/* Achievements */}
                       <div className="space-y-2">
                         {edu.achievements.map((achievement, idx) => (
@@ -185,9 +176,6 @@ const Education = () => {
                           {edu.institution}, {edu.location}
                         </span>
                       </div>
-
-                      {/* Description */}
-                      <p className="text-gray-700 mb-4 leading-relaxed">{edu.description}</p>
 
                       {/* Achievements */}
                       <div className="space-y-2">
