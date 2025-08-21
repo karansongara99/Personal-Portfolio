@@ -9,7 +9,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React.js", "Node.js", "MongoDB", "Express"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/SQL-Query-Generator-AI-Assistant",
       category: "web"
     },
     {
@@ -18,7 +18,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: [".Net Core WEB API", "MS SQL Server", "React.js"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/Logistic-Management-System",
       category: "web"
     },
     {
@@ -27,7 +27,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["PHP", "MySQL", "React.js", "Bootstrap","Laravel"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/Hr-Portal-Management-System",
       category: "web"
     },
     {
@@ -36,7 +36,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React.js", "Express.js", "Node.js", "MongoDB"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/News-Website",
       category: "web"
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React.js", "Chart.js", "D3.js", "Tailwind CSS"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/Dynamic-Data-Visualization",
       category: "web"
     },
     {
@@ -54,7 +54,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React.js", "Tailwind.css"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/karansongara99/Shares-Trading-Dashboard",
       category: "web"
     }
   ];
