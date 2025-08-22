@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Database, Zap } from 'lucide-react';
+import { Code, Database, Zap,PencilRuler } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -16,7 +16,7 @@ const Skills = () => {
     },
     {
       title: "Backend",
-      icon: <Database className="h-6 w-6" />,
+      icon: <PencilRuler className="h-6 w-6" />,
       skills: [
         { name: "Node.js", level: 88 },
         { name: "PHP", level: 85 },
@@ -37,7 +37,7 @@ const Skills = () => {
     },
     {
       title: "Database ",
-      icon: <Zap className="h-6 w-6" />,
+      icon: <Database className="h-6 w-6" />,
       skills: [
         { name: "MS SQL Server", level: 95 },
         { name: "MYSQL", level: 82 },

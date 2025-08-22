@@ -1,59 +1,65 @@
 import React from 'react';
 import { ExternalLink, Github, Code, Smartphone, Globe } from 'lucide-react';
+import chatbot from "../images/chatbot.png"
+import logistic from "../images/logistic.png"
+import hr from "../images/hrportal.png"
+import news from "../images/news.png"
+import dynamic from "../images/dataanalysis.png"
+import shares from "../images/shares.png"
 
 const Projects = () => {
   const projects = [
     {
       title: "Question to SQL Query Generator AI Assistant",
       description: "The SQL Query Generator AI Assistant is a tool or system designed to help users automatically generate SQL (Structured Query Language) queries from natural language input.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: chatbot,
       technologies: ["React.js", "Node.js", "MongoDB", "Express"],
-      liveUrl: "#",
+      liveUrl: "https://captilance-sql-query-generator.netlify.app/",
       githubUrl: "https://github.com/karansongara99/SQL-Query-Generator-AI-Assistant",
       category: "web"
     },
     {
       title: "Logistic Management System",
       description: "The Logistic Management System is a comprehensive application designed to manage and optimize logistics operations. It typically includes features for tracking shipments, managing inventory, and coordinating transportation.",
-      image: "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: logistic,
       technologies: [".Net Core WEB API", "MS SQL Server", "React.js"],
-      liveUrl: "#",
+      liveUrl: "https://logistic-management-system.netlify.app/",
       githubUrl: "https://github.com/karansongara99/Logistic-Management-System",
       category: "web"
     },
     {
       title: "Hr Portal Management System",
       description: "The HR Portal Management System is a web application designed to manage human resources operations. It typically includes features for employee management, payroll processing, and performance tracking.",
-      image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: hr,
       technologies: ["PHP", "MySQL", "React.js", "Bootstrap","Laravel"],
-      liveUrl: "#",
+      liveUrl: "https://hrportal-management-system.netlify.app/",
       githubUrl: "https://github.com/karansongara99/Hr-Portal-Management-System",
       category: "web"
     },
     {
       title: "News Website",
       description: "The News Website is a web application designed to provide users with access to current news and updates. It typically includes features for news categorization, search functionality, and user-friendly navigation.",
-      image: "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: news,
       technologies: ["React.js", "Express.js", "Node.js", "MongoDB"],
-      liveUrl: "#",
+      liveUrl: "https://captilance-news-website.netlify.app/",
       githubUrl: "https://github.com/karansongara99/News-Website",
       category: "web"
     },
     {
       title: "Dynamic Data Visualization",
       description: "The Dynamic Data Visualization is a web application designed to provide users with access to current news and updates. It typically includes features for news categorization, search functionality, and user-friendly navigation.",
-      image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: dynamic,
       technologies: ["React.js", "Chart.js", "D3.js", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "https://github.com/karansongara99/Dynamic-Data-Visualization",
+      liveUrl: "https://captilance-data-visualizer.netlify.app/",
+      githubUrl: "https://github.com/karansongara99/Dynamic-Data-Visualizer",
       category: "web"
     },
     {
-      title: "Shares Trading Dashboard",
-      description: "The Shares Trading Dashboard is a web application designed to provide users with access to current news and updates. It typically includes features for news categorization, search functionality, and user-friendly navigation.",
-      image: "https://images.pexels.com/photos/4162449/pexels-photo-4162449.jpeg?auto=compress&cs=tinysrgb&w=800",
+      title: "Shares Trading Analysis",
+      description: "The Shares Trading Analysis is a web application designed to provide users with access to current news and updates. It typically includes features for news categorization, search functionality, and user-friendly navigation.",
+      image: shares,
       technologies: ["React.js", "Tailwind.css"],
-      liveUrl: "#",
+      liveUrl: "https://captilance-shares-analysis.netlify.app/",
       githubUrl: "https://github.com/karansongara99/Shares-Trading-Dashboard",
       category: "web"
     }
@@ -67,7 +73,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A showcase of my recent work spanning web applications, mobile apps, and full-stack solutions.
+            A showcase of my recent work spanning web applications and full-stack solutions.
           </p>
         </div>
 

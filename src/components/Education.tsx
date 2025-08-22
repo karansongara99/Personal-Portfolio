@@ -40,7 +40,7 @@ const Education = () => {
       achievements: ['CGPA: 8.40/10', 'Project Presentation'],
     },
     {
-      degree: 'BTECH in Computer Engineering',
+      degree: 'B.Tech in Computer Engineering',
       institution: 'Darshan University',
       location: 'Rajkot, Gujarat',
       period: '2024 - 2027',
@@ -112,7 +112,7 @@ const Education = () => {
                       {/* Year and Title */}
                       <div className="mb-3">
                         <div className="text-2xl font-bold text-gray-600 mb-1">{edu.period}</div>
-                        <div className="text-lg font-semibold text-gray-500">{edu.degree}</div>
+                        <div className="text-lg font-bold text-gray-500">{edu.degree}</div>
                       </div>
 
                       {/* Institution and Location */}
@@ -165,7 +165,7 @@ const Education = () => {
                     >
                       {/* Year and Title */}
                       <div className="mb-3">
-                        <div className="text-2xl font-bold text-gray-600 mb-1">{edu.period}</div>
+                        <div className="text-2xl font-semibold text-gray-600 mb-1">{edu.period}</div>
                         <div className="text-lg font-semibold text-gray-500">{edu.degree}</div>
                       </div>
 
